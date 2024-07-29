@@ -7,7 +7,7 @@
     <title>Password Reset</title>
 </head>
 <body>
-    <p>Change your password: <a href="http://localhost:8000/reset/{{ $token }}">Click here</a></p>
+    <p>Change your password: <a href="http://localhost:3000/reset/{{ $token }}">Click here</a></p>
     <p>Pincode: {{ $token }}</p>
 </body>
 </html>
